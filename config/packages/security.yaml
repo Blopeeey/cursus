@@ -33,4 +33,9 @@ security:
         - { path: ^/resetting, role: IS_AUTHENTICATED_ANONYMOUSLY }
         - { path: ^/admin/, role: ROLE_ADMIN }
         - { path: ^/user/, role: ROLE_ADMIN }
-        - { path: ^/location/, role: ROLE_ADMIN }
+        - { path: ^/location/new, role: ROLE_ADMIN }
+        - { path: ^/location/edit, role: ROLE_ADMIN }
+        - { path: ^/event/new, role: ROLE_ADMIN }
+        - { path: ^/event/edit, role: ROLE_ADMIN }
+        - { path: ^/reservation/new, role: ROLE_ADMIN }
+        - { path: ^/reservation/edit, role: ROLE_ADMIN }
